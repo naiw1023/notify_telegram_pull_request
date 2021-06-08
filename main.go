@@ -43,7 +43,7 @@ func main() {
 
 	c := tbot.NewClient(token, http.DefaultClient, "https://api.telegram.org")
 
-	icon := icons[strings.ToLower(status)]
+// 	icon := icons[strings.ToLower(status)]
 	// link := fmt.Sprintf("https://github.com/%s/commit/%s/checks", repo, commit)
 	link := fmt.Sprintf("https://github.com/%s/pulls", repo)
 	// msg := fmt.Sprintf(`%s*%s*: %s ([%s](%s))`, icon, status, message, repo, link)
