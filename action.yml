@@ -1,4 +1,4 @@
-name: 'Issue Notify Telegram'
+name: 'Pull Request Notify Telegram'
 description: 'Get build notification to Telegram messenger'
 author: 'naiw1023'
 inputs: 
