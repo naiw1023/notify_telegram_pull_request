@@ -10,12 +10,7 @@ import (
 )
 
 func main() {
-	icons := map[string]string{
-		"failure":   "❗",
-		"cancelled": "❕",
-		"success":   "✅",
-	}
-
+	
 	var (
 		// inputs
 		token  = os.Getenv("INPUT_TOKEN")
